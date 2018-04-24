@@ -1,0 +1,401 @@
+
+/* body > div is React's root div */
+html, body, body > div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #dedede;
+    font-size: 13px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.mintax-small-field {
+    max-width: 100pt;
+}
+
+.mintax-medium-field {
+    max-width: 200pt;
+}
+
+.btn.btn-default,
+.btn.btn-default:active:focus,
+.btn.btn-default[disabled] {
+    background-color: #537b9e;
+    border-color: #537b9e;
+    color: white;
+}
+
+.mintax-button-group,
+.mintax-button-group-left,
+.mintax-button-group-right {
+    min-height: 35px;
+    margin: 15pt;
+    display: flex;
+    align-items: center;
+}
+
+.mintax-button-group > *,
+.mintax-button-group-left > *,
+.mintax-button-group-right > * {
+    margin: 0 3pt;
+}
+
+.mintax-button-group {
+    justify-content: center;
+}
+
+.mintax-button-group-left {
+    justify-content: flex-start;
+}
+
+.mintax-button-group-right {
+    justify-content: flex-end;
+}
+
+.mintax-margin-top {
+    margin-top: 10pt;
+}
+
+.mintax-margin-bottom {
+    margin-bottom: 15pt !important;
+}
+
+.mintax-small-margin-top {
+    margin-top: 3pt;
+}
+
+table.table {
+    margin: 5pt 0;
+    border: 0;
+}
+
+table.table thead th {
+    background-color: #eee;
+    color: #777;
+    font-weight: normal;
+    border-top: thin solid #ddd !important;
+    border-bottom-width: thin;
+}
+
+table.table tfoot td,
+.mintax-subheader-row td {
+    background-color: #f1f2f5;
+    text-align: right;
+}
+
+.mintax-transparent-row td {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+table.table .mintax-actions-column {
+    background-color: white !important;
+    border-top: 0 !important;
+    border: none;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.mintax-action-link {
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+table.table .mintax-checkbox-column {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.table .mintax-checkbox-column input[type=checkbox] {
+    height: 12pt;
+    width: 12pt;
+}
+
+.mintax-grouping-row td {
+    background-color: white;
+    font-weight: bold;
+    color: #8c99b1;
+}
+
+.mintax-totalizer-row td {
+    color: gray;
+}
+
+.panel .panel-heading {
+    background-color: #537b9e;
+    color: white;
+}
+
+.panel-heading strong {
+    font-size: x-large;
+}
+
+.mintax-ajax-indicator {
+  display: none;
+  background-image: url('images/ajaxIndicator.gif');
+  width: 32px;
+  height: 32px;
+  margin: 0 5pt;
+}
+
+.mintax-ajax-in-progress .mintax-button-group > button,
+.mintax-ajax-in-progress .mintax-button-group-right > button {
+  display: none;
+}
+
+.mintax-left-tool-section.mintax-ajax-in-progress > .mintax-ajax-indicator,
+.mintax-ajax-in-progress .mintax-button-group > .mintax-ajax-indicator,
+.mintax-ajax-in-progress .mintax-button-group-right > .mintax-ajax-indicator {
+  display: block;
+}
+
+p.mintax-ajax-in-progress {
+  background-image: url('images/ajaxIndicator.gif');
+  background-position-x: center;
+  background-repeat: no-repeat;
+  margin: 5pt 0;
+  height: 32px;
+}
+
+td.mintax-ajax-in-progress {
+  background-image: url('images/ajaxIndicator.gif');
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+button.mintax-ajax-in-progress {
+  background-image: url('images/ajaxIndicator-16x16.png');
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  color: transparent !important;
+}
+
+button.mintax-ajax-in-progress i {
+    display: none;
+}
+
+p.mintax-ajax-error {
+    margin: 15pt;
+    color: red;
+    text-align: center;
+}
+
+.mintax-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mintax-form > .mintax-scrollable {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mintax-form-body {
+    flex: 1;
+    padding: 15pt;
+}
+
+.mintax-form-body .btn-default {
+    background-color: #83b3de;
+    border-color: #83b3de;
+}
+
+.mintax-form-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #dedede;
+}
+
+.mintax-form-body .form-group {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15pt;
+}
+
+.mintax-top-border {
+    border-top: 1px solid #ddd;
+    padding-top: 5pt;
+    margin-top: 5pt;
+}
+
+.mintax-striped-row,
+table.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: white;
+}
+
+.mintax-invalid-row {
+    background-color: #ffefc2;
+}
+
+.Select-clear-zone,
+.Select-arrow-zone {
+    background-color: white;
+}
+
+.nav-tabs,
+.nav-pills {
+    margin-bottom: 10pt;
+}
+
+.nav-tabs > li > a,
+.nav-pills > li > a {
+    cursor: pointer;
+    color: #777;
+}
+
+.nav-pills > li > a {
+    background-color: #dedede;
+}
+
+.mintax-pointer {
+    cursor: pointer;
+}
+
+.mintax-underline {
+    text-decoration: underline;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.react-datepicker-popper {
+    z-index: 10;
+}
+
+.mintax-inactive-row > td {
+    color: #999;
+}
+
+.form-horizontal .form-group label {
+    text-align: left;
+}
+
+.mintax-form-hint {
+    margin: 5pt 0 0 0;
+    font-size: smaller;
+    color: gray;
+}
+
+.mintax-hint {
+    color: blue;
+}
+
+.mintax-danger {
+    color: red;
+    font-weight: bold;
+}
+
+.mintax-success {
+    color: green;
+    font-weight: bold;
+}
+
+.mintax-yellow {
+    color: #ecc814;
+}
+
+.mintax-yellow:hover {
+    color: #d3b323;
+}
+
+.mintax-warning {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.mintax-pagination {
+    margin: 5pt;
+}
+
+.mintax-pagination a {
+    color: black;
+    cursor: pointer;
+    margin: 0 5pt;
+}
+
+.mintax-pagination a.mintax-disabled {
+    color: gray;
+}
+
+.mintax-pagination a.mintax-current-page {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.mintax-vtop {
+    vertical-align: top !important;
+}
+
+.mintax-table-vmiddle > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.mintax-vmiddle {
+    vertical-align: middle !important;
+}
+
+.mintax-left-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mintax-sign-caption {
+    margin-top: 1pt;
+    margin-left: 5pt;
+}
+
+.mintax-sign-alert {
+    font-weight: bold;
+    color: rgb(220, 151, 41);
+}
+
+.mintax-sign-error {
+    font-weight: bold;
+    color: rgb(220, 41, 41);
+}
+
+.mintax-sign-info {
+    font-weight: bold;
+    color: rgb(51, 122, 183);
+}
+
+.mintax-sign-success {
+    font-weight: bold;
+    color: rgb(40, 112, 25);
+}
+
+.mintax-left-tool-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.mintax-left-tool-section > * {
+    margin: 0 3pt;
+}
+
+.mintax-invalid-cell input {
+    color: red;
+}

@@ -1,0 +1,27 @@
+
+.mintax-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #537b9e;
+    color: white;
+    font-weight: bold;
+}
+
+.mintax-footer a:link,
+.mintax-footer a:hover,
+.mintax-footer a:active,
+.mintax-footer a:visited {
+    color: white;
+}
+
+.mintax-footer > .mintax-about-etax,
+.mintax-footer > .mintax-copyright {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10pt;
+}
+
+.mintax-footer > .mintax-about-etax {
+    flex: 1;
+}

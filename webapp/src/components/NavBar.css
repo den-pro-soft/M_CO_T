@@ -1,0 +1,17 @@
+
+.mintax-topbar {
+    margin-bottom: 5pt;
+    background-color: white;
+}
+
+.mintax-topbar .nav > li > a {
+    padding: 15px 6px;
+}
+
+.mintax-topbar .nav > li.active > a,
+.mintax-topbar .nav > li.active > a:hover,
+.mintax-topbar .nav > li.active > a:active,
+.mintax-topbar .nav > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+}

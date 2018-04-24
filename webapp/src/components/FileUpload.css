@@ -1,0 +1,52 @@
+
+.mintax-dropzone {
+    margin: 5pt 0;
+}
+
+.mintax-dropzone > div {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    padding: 5pt;
+    border-color: #aaa !important;
+    text-align: center;
+}
+
+.mintax-dropzone-results {
+    margin: 10pt 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mintax-dropzone-result-pending {
+    color: #d4ad11;
+}
+
+.mintax-dropzone-result-success {
+    color: #0d8c19;
+}
+
+.mintax-dropzone-result-failure {
+    color: #921111;
+}
+
+.mintax-dropzone-minimal {
+    display: inline;
+}
+
+.mintax-dropzone-minimal > div {
+    display: none;
+}
+
+td .progress {
+    margin-bottom: 0;
+    margin-right: 5pt;
+    width: 125pt;
+}
+
+td .progress > div {
+    color: white;
+    text-align: center;
+}

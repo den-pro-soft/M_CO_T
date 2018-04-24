@@ -1,0 +1,11 @@
+
+.mintax-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mintax-login-panel {
+    max-width: 400pt;
+    text-align: center;
+}

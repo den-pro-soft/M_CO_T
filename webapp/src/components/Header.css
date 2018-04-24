@@ -1,0 +1,34 @@
+
+.mintax-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #537b9e;
+    color: white;
+    font-weight: bold;
+}
+
+.mintax-header a:link,
+.mintax-header a:hover,
+.mintax-header a:active,
+.mintax-header a:visited {
+    color: white;
+}
+
+.mintax-header > .mintax-brand,
+.mintax-header > .mintax-contactus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5pt 8pt;
+}
+
+.mintax-header > .mintax-brand {
+    flex: 1;
+    align-items: flex-start;
+}
+
+.mintax-header > .mintax-brand .mintax-brand-appname {
+    font-weight: bolder;
+    font-size: x-large;
+}

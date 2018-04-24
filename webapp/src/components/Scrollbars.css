@@ -1,0 +1,30 @@
+
+.mintax-scrollable-track-vertical {
+    width: 16px !important;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #efefef;
+}
+
+.mintax-scrollable-track-horizontal {
+    height: 16px !important;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.mintax-scrollable-view {
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+}
+
+.mintax-scrollable-thumb-vertical,
+.mintax-scrollable-thumb-horizontal {
+    background-color: rgba(67, 96, 150, 0.5);
+}

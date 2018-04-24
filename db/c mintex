@@ -1,0 +1,39 @@
+                       List of relations
+ Schema |               Name                |   Type   | Owner 
+--------+-----------------------------------+----------+-------
+ public | auth_group                        | table    | jack
+ public | auth_group_id_seq                 | sequence | jack
+ public | auth_group_permissions            | table    | jack
+ public | auth_group_permissions_id_seq     | sequence | jack
+ public | auth_permission                   | table    | jack
+ public | auth_permission_id_seq            | sequence | jack
+ public | auth_user                         | table    | jack
+ public | auth_user_groups                  | table    | jack
+ public | auth_user_groups_id_seq           | sequence | jack
+ public | auth_user_id_seq                  | sequence | jack
+ public | auth_user_user_permissions        | table    | jack
+ public | auth_user_user_permissions_id_seq | sequence | jack
+ public | customers_client                  | table    | jack
+ public | customers_client_id_seq           | sequence | jack
+ public | django_admin_log                  | table    | jack
+ public | django_content_type               | table    | jack
+ public | django_content_type_id_seq        | sequence | jack
+ public | django_migrations                 | table    | jack
+ public | django_migrations_id_seq          | sequence | jack
+ public | django_session                    | table    | jack
+ public | polls_choice                      | table    | jack
+ public | polls_choice_id_seq               | sequence | jack
+ public | polls_question                    | table    | jack
+ public | polls_question_id_seq             | sequence | jack
+ public | social_auth_association           | table    | jack
+ public | social_auth_association_id_seq    | sequence | jack
+ public | social_auth_code                  | table    | jack
+ public | social_auth_code_id_seq           | sequence | jack
+ public | social_auth_nonce                 | table    | jack
+ public | social_auth_nonce_id_seq          | sequence | jack
+ public | social_auth_partial               | table    | jack
+ public | social_auth_partial_id_seq        | sequence | jack
+ public | social_auth_usersocialauth        | table    | jack
+ public | social_auth_usersocialauth_id_seq | sequence | jack
+(34 rows)
+

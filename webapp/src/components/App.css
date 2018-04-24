@@ -1,0 +1,19 @@
+
+.mintax-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.mintax-app > .mintax-header,
+.mintax-app > .mintax-footer {
+    flex-shrink: 0;
+}
+
+.mintax-app > div.container-fluid {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5pt;
+}

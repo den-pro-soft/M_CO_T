@@ -1,0 +1,7 @@
+node_modules/
+dist/
+venv/
+.vscode/
+__pycache__/
+.cache/
+api/env
